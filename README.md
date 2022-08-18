@@ -13,8 +13,8 @@ As regras para participar do desafio são:
 Desafio #21diasdecodigo (17 de Agosto de 2022 - 06 de Setembro de 2022):
 
 - [x] **Dia 1: Crie um repositório para listar os 21 projetos que serão desenvolvidos durante os 21 dias de código.**
-- [ ] Dia 2: Faça um "Hello World" customizado com fontes, cores e imagens.
-- [ ] Dia 3: Crie um botão animado.
+- [x] **Dia 2: Faça um "Hello World" customizado com fontes, cores e imagens.**
+- [x] Dia 3: Crie um botão animado.
 - [ ] Dia 4: Crie uma calculadora.
 - [ ] Dia 5: Desenvolva uma página customizada que exiba o erro 404.
 - [ ] Dia 6: Crie um card com o efeito glassmorphism.
