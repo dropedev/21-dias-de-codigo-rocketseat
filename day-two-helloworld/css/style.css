@@ -1,11 +1,41 @@
+
+:root {
+    background-color: #2980b9;
+    background: linear-gradient(215deg, #71b073 29.9%, #2776aa 80%), linear-gradient(304deg, rgba(255, 101, 53, 0.4) 24.9%, #aa2743 91%), linear-gradient(10deg, #b1c9d8 19.9%, #2776aa 50%), linear-gradient(145deg, #f4df26 15.9%, #ff1b9a 40%);  
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+  }
+
+  
+:root {
+    font-size: calc( 1rem + (60 - 30) * ( (100vw - 400px) / ( 2000 - 400)));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000;
-    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden; 
 }
+
+.monitor{
+    position: absolute;
+
+    top: 120px;
+    left: 240px;
+
+    width: 800px;
+    height: 450px;
+}
+
+
 
 h1 {
     position: relative;
@@ -15,11 +45,12 @@ h1 {
     color: #fff;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    text-shadow: 0 0 0.15em #1da9cc;
+    text-shadow: 0 0 0.15em #cc1d1d;
     user-select: none;
     white-space: nowrap;
-    filter: blur(0.007em);
+    filter: blur(0.008em);
     animation: shake 2.5s linear forwards;
+ 
 }
 
 h1 span {
@@ -50,6 +81,8 @@ h1::after {
     -webkit-clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
             clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
 }
+
+
 
 @keyframes shake {
     5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
