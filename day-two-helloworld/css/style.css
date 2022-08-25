@@ -1,13 +1,13 @@
 
+*{
+    margin: 0;
+}
+
 :root {
     background-color: #2980b9;
     background: linear-gradient(215deg, #71b073 29.9%, #2776aa 80%), linear-gradient(304deg, rgba(255, 101, 53, 0.4) 24.9%, #aa2743 91%), linear-gradient(10deg, #b1c9d8 19.9%, #2776aa 50%), linear-gradient(145deg, #f4df26 15.9%, #ff1b9a 40%);  
     background-repeat: no-repeat;
     background-blend-mode: hard-light;
-  }
-
-  
-:root {
     font-size: calc( 1rem + (60 - 30) * ( (100vw - 400px) / ( 2000 - 400)));
     display: flex;
     align-items: center;
@@ -17,30 +17,29 @@
 
   
 body {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(255, 255, 255);
     overflow: hidden; 
 }
 
 .monitor{
-    position: absolute;
-
-    top: 120px;
-    left: 240px;
-
-    width: 800px;
-    height: 450px;
+    position: relative;
+    padding: 5% 0;
+    max-width: calc(90% + 5vw);
+    max-height: calc(70% + 5vw);
 }
 
-
+.title-content{
+    position: absolute;
+    top: 30%;
+    right: 50%;
+}
 
 h1 {
-    position: relative;
+   
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(20px + 5vw);
+    font-size: calc(10px + 5vw);
     font-weight: 700;
     color: #fff;
     letter-spacing: 0.02em;
@@ -50,7 +49,6 @@ h1 {
     white-space: nowrap;
     filter: blur(0.008em);
     animation: shake 2.5s linear forwards;
- 
 }
 
 h1 span {
