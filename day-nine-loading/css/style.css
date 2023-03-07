@@ -1,0 +1,45 @@
+html {
+  height: 100vh;
+
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.loader {
+  animation: is-rotating 6s infinite;
+  animation-timing-function: ease-in-out;
+  border: 6px solid #e5e5e5;
+  border-top-color: #51d4db;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+
+@keyframes is-rotating {
+  0% {
+    border-top-color: #51d4db;
+  }
+
+  25% {
+    border-right-color: #51d4db;
+  }
+
+  50% {
+    border-bottom-color: #51d4db;
+  }
+
+  75% {
+    border-left-color: #51d4db;
+  }
+
+  100% {
+    border-top-color: #e5e5e5;
+  }
+
+/*
+  to {
+    transform: rotate(1turn);
+  } */
+}

@@ -27,7 +27,7 @@ body {
     position: relative;
     padding: 5% 0;
     max-width: calc(90% + 5vw);
-    max-height: calc(70% + 5vw);
+    max-height: calc(70% + 5vh);
 }
 
 .title-content{

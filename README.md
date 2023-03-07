@@ -20,9 +20,9 @@ Desafio #21diasdecodigo (17 de Agosto de 2022 - 06 de Setembro de 2022):
 - [x] **Dia 6: Crie um card com o efeito glassmorphism.**
 - [x] **Dia 7: Desenvolva um Contador.**
 - [x] **Dia 8: Desenvolva um toggle theme**
-- [ ] Dia 9: Crie uma animação de loading.
-- [ ] Dia 10: Utilize a lib Particle.js do JavaScript
-- [ ] Dia 11: Crie o layout de um formulário de login.
+- [x] **Dia 9: Crie uma animação de loading.**
+- [x] **Dia 10: Utilize a lib Particle.js do JavaScript.**
+- [x] **Dia 11: Crie o layout de um formulário de login.**
 - [ ] Dia 12: Desenvolva uma galeria de imagens
 - [ ] Dia 13: Desenvolva um menu responsivo.
 - [ ] Dia 14: Crie um formulário de quizzes
