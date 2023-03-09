@@ -23,9 +23,9 @@ Desafio #21diasdecodigo (17 de Agosto de 2022 - 06 de Setembro de 2022):
 - [x] **Dia 9: Crie uma animação de loading.**
 - [x] **Dia 10: Utilize a lib Particle.js do JavaScript.**
 - [x] **Dia 11: Crie o layout de um formulário de login.**
-- [ ] Dia 12: Desenvolva uma galeria de imagens
-- [ ] Dia 13: Desenvolva um menu responsivo.
-- [ ] Dia 14: Crie um formulário de quizzes
+- [x] **Dia 12: Desenvolva uma galeria de imagens.**
+- [x] **Dia 13: Desenvolva um menu responsivo.**
+- [x] **Dia 14: Crie um formulário de quizzes.**
 - [ ] Dia 15: Desenvolva um site que exiba uma vitrine de produtos de um e-commerce fictício (com nome dos produtos, preços e imagens).
 - [ ] Dia 16: Desenvolva um site utilizando uma API pública.
 - [ ] Dia 17: Desenvolva um site que capture os eventos do teclado e exiba na tela o evento e a tecla pressionada.
