@@ -1,23 +1,154 @@
 @use 'variables'
+@use 'mixins'
 
 body
   font-family: 'Poppins'
 
+
   ul
     list-style: none
-  
+
   a
     text-decoration: none
-    transition: 3s
+    //transition: 3s
+
 
 *
   padding: 0
   margin: 0
   box-sizing: border-box
 
-
 .header
-  background-color: variables.$primary-color 
-  color: variables.$secondary-color
+  background-color: variables.$secondary-color
+  color: variables.$primary-color
   display: flex
+  align-items: center
   justify-content: space-between
+  @include mixins.container
+
+  &-brand
+    color: variables.$primary-color
+
+  &-nav
+    padding: 1.0rem
+
+  &-nav-list
+    font-weight: 500
+    gap: 15px
+    @include mixins.flex-center
+    
+    li
+      color: variables.$primary-color
+
+  &-icons
+    ul
+      gap: 10px
+      @include mixins.flex-center
+
+      li > a > i
+        color: variables.$primary-color
+
+.infos 
+  display: flex
+  align-items: center
+  justify-content: space-between
+  margin: 2.5rem 0
+  @include mixins.container
+
+  &-parcele, &-frete, &-compra, &-first-buy
+    @include mixins.card-itens
+
+.gallery-items
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  @include mixins.container
+
+  &-card
+    width: calc(50% - 10px)
+    height: 250px
+    border-radius: 10px
+    display: flex
+    margin-bottom: 20px
+    justify-content: center
+    align-items: center
+
+    
+
+  #card-1
+    @include mixins.bg-img('switches.png')
+
+  #card-2
+    @include mixins.bg-img('sensores.png')
+
+  #card-3
+    @include mixins.bg-img('interruptor.png')
+
+  #card-4
+    @include mixins.bg-img('tomada.png')
+
+
+.gallery-card
+  color: variables.$primary-color
+  font-size: 25px
+  font-weight: 600
+
+.products-title
+  margin-top: 10px
+  display: flex
+  align-items: center
+  justify-content: center
+  font-size: 20px
+
+.products
+  @include mixins.flex-center
+  overflow-x: auto
+  margin-bottom: 20px
+
+  &-card
+    border: 1px solid gray
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1)
+    border-radius: 5px
+    height: 350px
+    flex: 0 0 300px
+    margin-right: 20px
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 20px 0
+
+    img
+      width: 96px
+      height: 150px
+
+    h3
+      margin-top: 10px
+      font-size: 1.2em
+      text-align: center
+
+    p
+      margin-top: 10px
+      padding: 5px 10px
+      font-size: 0.8em
+      text-align: center
+
+
+    button
+      margin-top: 10px
+      padding: 5px 10px
+      font-size: 0.8em
+      border: none
+      cursor: pointer
+      background-color: variables.$details-color
+      color: variables.$primary-color
+      transition: 0.6
+
+    button:hover
+      background-color: variables.$details-color-hover
+
+
+footer
+  background-color: variables.$secondary-color
+  color: variables.$primary-color
+  @include mixins.flex-center
+    

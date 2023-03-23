@@ -1,0 +1,30 @@
+body {
+  font-family: "Poppins";
+}
+body ul {
+  list-style: none;
+}
+body a {
+  transition: 3s;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: red;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+}
+.header-nav-list {
+  display: flex;
+}
+
+/*# sourceMappingURL=styles.css~.map */
